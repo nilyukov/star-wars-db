@@ -1692,7 +1692,7 @@ babel-preset-jest@^23.2.0:
 
 babel-preset-react-app@^7.0.2:
   version "7.0.2"
-  resolved "https://registry.yarnpkg.com/babel-preset-react-app/-/babel-preset-react-app-7.0.2.tgz#d01ae973edc93b9f1015cb0236dd55889a584308"
+  resolved "https://registry.yarnpkg.com/babel-preset-react-App/-/babel-preset-react-App-7.0.2.tgz#d01ae973edc93b9f1015cb0236dd55889a584308"
   integrity sha512-mwCk/u2wuiO8qQqblN5PlDa44taY0acq7hw6W+a70W522P7a9mIcdggL1fe5/LgAT7tqCq46q9wwhqaMoYKslQ==
   dependencies:
     "@babel/core" "7.2.2"
@@ -3331,7 +3331,7 @@ escodegen@^1.9.1:
 
 eslint-config-react-app@^3.0.8:
   version "3.0.8"
-  resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-3.0.8.tgz#6f606828ba30bafee7d744c41cd07a3fea8f3035"
+  resolved "https://registry.yarnpkg.com/eslint-config-react-App/-/eslint-config-react-App-3.0.8.tgz#6f606828ba30bafee7d744c41cd07a3fea8f3035"
   integrity sha512-Ovi6Bva67OjXrom9Y/SLJRkrGqKhMAL0XCH8BizPhjEVEhYczl2ZKiNZI2CuqO5/CJwAfMwRXAVGY0KToWr1aA==
   dependencies:
     confusing-browser-globals "^1.0.6"
@@ -7885,7 +7885,7 @@ rc@^1.2.7:
 
 react-app-polyfill@^0.2.2:
   version "0.2.2"
-  resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-0.2.2.tgz#a903b61a8bfd9c5e5f16fc63bebe44d6922a44fb"
+  resolved "https://registry.yarnpkg.com/react-App-polyfill/-/react-App-polyfill-0.2.2.tgz#a903b61a8bfd9c5e5f16fc63bebe44d6922a44fb"
   integrity sha512-mAYn96B/nB6kWG87Ry70F4D4rsycU43VYTj3ZCbKP+SLJXwC0x6YCbwcICh3uW8/C9s1VgP197yx+w7SCWeDdQ==
   dependencies:
     core-js "2.6.4"
@@ -7957,14 +7957,14 @@ react-scripts@2.1.8:
     babel-jest "23.6.0"
     babel-loader "8.0.5"
     babel-plugin-named-asset-import "^0.3.1"
-    babel-preset-react-app "^7.0.2"
+    babel-preset-react-App "^7.0.2"
     bfj "6.1.1"
     case-sensitive-paths-webpack-plugin "2.2.0"
     css-loader "1.0.0"
     dotenv "6.0.0"
     dotenv-expand "4.2.0"
     eslint "5.12.0"
-    eslint-config-react-app "^3.0.8"
+    eslint-config-react-App "^3.0.8"
     eslint-loader "2.1.1"
     eslint-plugin-flowtype "2.50.1"
     eslint-plugin-import "2.14.0"
@@ -7985,7 +7985,7 @@ react-scripts@2.1.8:
     postcss-loader "3.0.0"
     postcss-preset-env "6.5.0"
     postcss-safe-parser "4.0.1"
-    react-app-polyfill "^0.2.2"
+    react-App-polyfill "^0.2.2"
     react-dev-utils "^8.0.0"
     resolve "1.10.0"
     sass-loader "7.1.0"
