@@ -11,13 +11,15 @@ export default class App extends Component {
 
     state = {
         selectedPerson: 0
-    }
+    };
 
     onPersonSelected = (id) => {
         this.setState({
             selectedPerson: id
         })
     };
+
+
 
     render() {
         return (
