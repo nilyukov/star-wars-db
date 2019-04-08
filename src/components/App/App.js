@@ -6,11 +6,13 @@ import ItemList from '../ItemList/ItemList';
 import PersonDetails from '../PersonDetails/PersonDetails';
 
 import './App.css';
+import ErrorIndicator from "../ErrorIndicator/ErrorIndicator";
 
 export default class App extends Component {
 
     state = {
-        selectedPerson: 0
+        selectedPerson: 0,
+        hasError: false
     };
 
     onPersonSelected = (id) => {
@@ -19,9 +21,20 @@ export default class App extends Component {
         })
     };
 
+    componentDidCatch(){
+        this.setState({
+            hasError: true
+        });
+    }
+
 
 
     render() {
+
+        if(this.state.hasError){
+            return <ErrorIndicator/>
+        }
+
         return (
             <div>
                 <Header/>
