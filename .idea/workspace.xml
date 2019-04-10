@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1aa293-7b33-4f63-a6fb-ad6eed202381" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SwapiServiceContext/SwapiServiceContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hoc-helper/withSwapiService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sw-components/PlanetDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sw-components/StarshipDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sw-components/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sw-components/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/PersonDetails.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,32 +66,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeoplePage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PeoplePage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Details.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/sw-components/Details.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-888">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="500">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwapiServiceContext.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/SwapiServiceContext/SwapiServiceContext.js">
+      <file leaf-file-name="PersonDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/sw-components/PersonDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="40">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="withSwapiService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/hoc-helper/withSwapiService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,10 +164,14 @@
         <option value="$PROJECT_DIR$/src/components/ItemDetails/ItemDetails.js" />
         <option value="$PROJECT_DIR$/src/components/ItemList/ItemList.js" />
         <option value="$PROJECT_DIR$/src/components/sw-components/ItemLists.js" />
-        <option value="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" />
         <option value="$PROJECT_DIR$/src/components/SwapiServiceContext/SwapiServiceContext.js" />
         <option value="$PROJECT_DIR$/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/sw-components/Details.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/StarshipDetails.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/PlanetDetails.js" />
+        <option value="$PROJECT_DIR$/src/components/hoc-helper/withSwapiService.js" />
+        <option value="$PROJECT_DIR$/src/components/sw-components/PersonDetails.js" />
+        <option value="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" />
       </list>
     </option>
   </component>
@@ -221,13 +230,6 @@
               <item name="star-db" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="hoc-helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,50 +237,7 @@
               <item name="star-db" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ItemDetails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="PeoplePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="RandomPlanet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Row" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Row" type="462c0819:PsiDirectoryNode" />
-              <item name="Row" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="sw-components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-db" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="SwapiServiceContext" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,6 +258,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\purple\www\react\star-db\src\components\sw-components" />
       <recent name="C:\Users\purple\www\react\star-db\src\components" />
       <recent name="C:\Users\purple\www\react\star-db\public" />
     </key>
@@ -329,12 +289,12 @@
       <workItem from="1554203649209" duration="3074000" />
       <workItem from="1554631105031" duration="22241000" />
       <workItem from="1554805919700" duration="12779000" />
-      <workItem from="1554894049809" duration="4104000" />
+      <workItem from="1554894049809" duration="5076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56594000" />
+    <option name="totallyTimeSpent" value="57566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
@@ -367,40 +327,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/ItemDetails/ItemDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/hoc-helper/withData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sw-components/Details.js">
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/PersonDetails.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,6 +372,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -657,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RandomPlanet/RandomPlanet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-948">
@@ -684,16 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sw-components/Details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-888">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ItemDetails/ItemDetails.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -704,10 +620,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/StarshipDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/PlanetDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SwapiServiceContext/SwapiServiceContext.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/hoc-helper/withSwapiService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sw-components/PersonDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
