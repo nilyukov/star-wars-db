@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 import './ItemDetails.css';
 
 const Record = ({item, label, field}) =>{
-    console.log({item, label, field});
     return (
         <li className="list-group-item">
             <span className="term">{label}</span>
