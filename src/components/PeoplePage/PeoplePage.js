@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 import './PeoplePage.css';
-import SwapiService from "../../services/swapi-service";
 import ErrorBoundry from "../ErrorBoundry/ErrorBoundry";
 import Row from "../Row/Row/Row";
 import {PersonList} from "../sw-components/ItemLists";
@@ -9,7 +8,7 @@ import PersonDetails from "../sw-components/PersonDetails";
 
 
 export default class PeoplePage extends Component {
-    swapiService = new SwapiService();
+
 
     state = {
         selectedPerson: 0
