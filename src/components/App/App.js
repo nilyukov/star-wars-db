@@ -8,6 +8,8 @@ import './App.css';
 import ErrorIndicator from "../ErrorIndicator/ErrorIndicator";
 import PeoplePage from "../PeoplePage/PeoplePage";
 import SwapiService from "../../services/swapi-service";
+import {SwapiServiceProvider} from "../SwapiServiceContext/SwapiServiceContext";
+import ErrorBoundry from "../ErrorBoundry/ErrorBoundry";
 
 export default class App extends Component {
 
@@ -32,13 +34,15 @@ export default class App extends Component {
         }
 
         return (
-            <div>
-                <Header/>
-                <RandomPlanet/>
-                <PeoplePage/>
+            <ErrorBoundry>
 
+                <SwapiServiceProvider value={this.swapiService}>
+                    <Header/>
+                    <RandomPlanet/>
+                    <PeoplePage/>
+                </SwapiServiceProvider>
 
-            </div>
+            </ErrorBoundry>
         );
     }
 }
